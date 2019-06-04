@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="LOLGame"
+  id="myeclipse.1534834865298"
+  context-root="/LOLGame"
+  j2ee-spec="5.0"
+  archive="LOLGame.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

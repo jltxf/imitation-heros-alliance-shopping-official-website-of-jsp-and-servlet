@@ -1,0 +1,432 @@
+element.style {
+	zoom: 1;
+}
+
+.mainer {
+	position: relative;
+	z-index: 1;
+	padding-top: 28px;
+	overflow: hidden;
+	zoom: 1;
+	width: 1240px;
+	margin: 0 auto 50px;
+}
+
+.clearfix:after,.hd:after,.layout:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.selete-checklist {
+	float: left;
+	width: 70%;
+	padding-top: 5px;
+}
+
+.navi {
+	padding-top: 28px;
+	height: 65px;
+	font-size: 16px;
+}
+
+.commico-crumbs {
+	margin-right: 5px;
+	width: 16px;
+	height: 14px;
+	vertical-align: middle;
+	background-position: -831px 0;
+}
+
+.commspr {
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-image:
+		url(http://game.gtimg.cn/images/lol/web201310/page.png?d=20131230);
+}
+
+.navi a {
+	color: #333;
+	border-bottom: 1px dotted #333;
+}
+
+.navi {
+	padding-top: 28px;
+	height: 65px;
+	font-size: 16px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.commico-rrow {
+	margin: 0 8px;
+	width: 8px;
+	height: 9px;
+	vertical-align: middle;
+	background-position: -831px -17px;
+}
+
+i,cite,em,var,address,dfn {
+	font-style: italic;
+}
+
+a:-webkit-any-link {
+	color: -webkit-link;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.colbox {
+	border: 1px solid #E1E1E1;
+	box-shadow: 0 0 2px rgba(0, 0, 0, .1);
+	background: #fff;
+}
+
+div {
+	display: block;
+}
+
+.pagetab {
+	border-top: 4px solid #D7D7D7;
+	border-bottom: 1px solid #E2E2E2;
+	height: 48px;
+	background: #F0F0F0;
+}
+
+.pagetab-list {
+	margin-top: -4px;
+	margin-bottom: -2px;
+	position: relative;
+	height: 53px;
+}
+
+.pagetab-list,.pagetab-list li {
+	float: left;
+}
+
+li.p-list1 {
+	
+}
+
+li {
+	list-style-type: none;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+	text-decoration: none;
+}
+
+.pagetab-list-lnk:hover,.pagetab-list1 .p-list1 a,.pagetab-list2 .p-list2 a,.pagetab-list3 .p-list3 a,.pagetab-list4 .p-list4 a,.pagetab-list5 .p-list5 a,.pagetab-list6 .p-list6 a,.pagetab-list .current a
+	{
+	text-decoration: none;
+	border-top: 4px solid #00A383;
+	color: #00A383;
+	background: #fff;
+}
+
+.selete-item {
+	float: left;
+	min-width: 60px;
+	_width: 60px;
+	margin-right: 17px;
+	position: relative;
+}
+
+.layout {
+	width: 1240px;
+	margin: 0 auto;
+}
+
+ul,menu,dir {
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+
+.selete-item .ms-radio,.selete-item li,.selete-item label {
+	float: left;
+	cursor: pointer;
+}
+
+.ms-radio {
+	margin-right: 3px;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #B1B1B1;
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+}
+
+label {
+	cursor: default;
+}
+
+.info-showbox {
+	padding: 30px 37px 30px 30px;
+	margin-top: -1px;
+	position: relative;
+	min-height: 500px;
+	_height: 500px;
+}
+
+.clearfix,.hd,.layout {
+	
+}
+
+body {
+	font: normal 12px/1.6em Microsoft YaHei, Tahoma, simsun;
+	color: #666;
+	min-width: 1240px;
+	margin: 0 auto;
+	background: #f7f8f8;
+}
+
+.ms-radio .i {
+	display: inline-block;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 10px;
+	width: 10px;
+	cursor: pointer;
+	background: #fff;
+}
+
+.pagetab-list-lnk {
+	display: block;
+	border-top: 4px solid #D7D7D7;
+	height: 49px;
+	line-height: 48px;
+	width: 160px;
+	text-align: center;
+	color: #525252;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.current .ms-radio .i {
+	background: #00A383;
+	border-radius: 10px;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+.imgtextlist {
+	float: left;
+	padding: 30px 0 0;
+	position: relative;
+}
+
+.info-searchbox {
+	float: right;
+	height: 40px;
+	background: #fff;
+	border: 1px solid #CDCDCD;
+	box-shadow: -1px 0 3px rgba(0, 0, 0, .1) inset;
+}
+
+.searchbox {
+	padding: 0 10px 0 8px;
+	width: 24%;
+	height: 45px;
+	background: #F1F1F1;
+}
+
+.info-searchbox .input-search {
+	margin-top: 10px;
+	border-right: 1px solid #E5E5E5;
+}
+
+.input-search {
+	float: left;
+	margin-top: 12px;
+	width: 87%;
+	height: 20px;
+	line-height: 20px;
+	border: 0;
+	background: none;
+	color: #999;
+}
+
+input,select {
+	font-family: Microsoft YaHei;
+}
+
+input:not        ([type]        ),input[type="email" i],input[type="number"
+	i],input[type="password" i],input[type="tel" i],input[type="url" i],input[type="text"
+	i] {
+	padding: 1px 0px;
+}
+
+input {
+	-webkit-appearance: textfield;
+	background-color: white;
+	-webkit-rtl-ordering: logical;
+	cursor: text;
+	padding: 1px;
+	border-width: 2px;
+	border-style: inset;
+	border-color: initial;
+	border-image: initial;
+}
+
+input,textarea,select,button {
+	text-rendering: auto;
+	color: initial;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	margin: 0em;
+	font: 400 13.3333px Arial;
+}
+
+input,textarea,select,button,meter,progress {
+	-webkit-writing-mode: horizontal-tb !important;
+}
+
+input,select {
+	font-family: Microsoft YaHei;
+}
+
+.btn-search {
+	float: right;
+	margin-top: 5%;
+}
+
+.btn-search {
+	width: 19px;
+	height: 21px;
+	background-position: -1411px -95px;
+}
+
+.btn-search {
+	display: none;
+}
+
+.tnd {
+	overflow: hidden;
+	text-indent: -9999em;
+}
+
+.imgtextlist {
+	float: left;
+	padding: 30px 0 0;
+	position: relative;
+}
+
+.imgtextlist li {
+	float: left;
+	width: 90px;
+	height: 100px;
+	margin-bottom: 22px;
+	text-align: center;
+	line-height: 15px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+.imgtextlist li a {
+	color: #333;
+}
+
+a:hover,a:visited {
+	text-decoration: none;
+}
+
+p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+.imgtextlist img,.imgtextlist .sbg {
+	width: 66px;
+	height: 65px;
+}
+
+.imgtextlist img {
+	display: block;
+	margin: 0 auto 7px;
+}
+
+fieldset,img,abbr,acronym {
+	border: 0;
+}
+
+.imgtextlist .sbg {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 12px;
+	background: #00A383;
+	opacity: .8;
+	cursor: pointer;
+}
+
+.imgtextlist img,.imgtextlist .sbg {
+	width: 66px;
+	height: 65px;
+}
+
+.sbg .commico-search {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -12px 0 0 -12px;
+}
+
+.commico-search {
+	display: block;
+	width: 23px;
+	height: 26px;
+	background-position: -582px -86px;
+}
+
+.commspr {
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-image:
+		url(http://game.gtimg.cn/images/lol/web201310/page.png?d=20131230);
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	text-decoration: none; /* 指正常的未被访问过的链接*/
+}
+
+.footer {
+	background-color: #000;
+	width: 500px;
+	height: 100px;
+}
+
+body {
+	display: block;
+	margin: 8px;
+}
